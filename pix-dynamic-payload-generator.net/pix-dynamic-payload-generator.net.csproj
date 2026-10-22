@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <RootNamespace>pix_dynamic_payload_generator.net</RootNamespace>
+    <Version>1.0.24</Version>
+    <Authors>Alexandre Sanlim</Authors>
+    <Description>Auxilia na geração de QRCodes dinâmicos para pagamentos com PIX (Sistema de pagamento instantâneo do Banco Central do Brasil).</Description>
+    <PackageProjectUrl>https://github.com/alexandresanlim/pix-dynamic-payload-generator.net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/brunnojob/pix-dynamic-payload-generator-dotnet</RepositoryUrl>
+    <PackageTags>pix,brasil,brazil,qr,code,pagamento</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="pix-payload-generator.net" Version="1.0.19-pre-release" />
+  </ItemGroup>
+
+</Project>

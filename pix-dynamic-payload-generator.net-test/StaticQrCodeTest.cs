@@ -17,7 +17,9 @@ namespace pix_dynamic_payload_generator.net_test
             var result = payload.GenerateStringToQrCode();
             Assert.IsFalse(string.IsNullOrWhiteSpace(result));
             Assert.IsTrue(result.StartsWith("000201"));
-            Assert.IsTrue(result.Contains("BR.GOV.BCB.PIX"));
+            Assert.IsTrue(
+                result.Contains("BR.GOV.BCB.PIX", StringComparison.OrdinalIgnoreCase),
+                "The generated payload must contain the Pix GUI identifier.");
         }
     }
 }

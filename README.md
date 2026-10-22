@@ -1,6 +1,6 @@
 # Pix Dynamic Payload Generator for .NET
 
-C# library for Pix payloads and PSP API integration. Imported from the supplied source archive of [Alexandre Sanlim’s project](https://github.com/alexandresanlim/pix-dynamic-payload-generator.net).
+C# library for Pix payloads and PSP API integration. 
 
 ## Features
 
@@ -31,4 +31,4 @@ This source import removes code comments, unused commented-out files and fixed e
 
 ## Origin and license
 
-Derived from [alexandresanlim/pix-dynamic-payload-generator.net](https://github.com/alexandresanlim/pix-dynamic-payload-generator.net). Original copyright: Alexandre Sanlim. The original MIT license is preserved in [LICENSE](LICENSE). This repository is a source derivative, not a new release of the original NuGet package.
+

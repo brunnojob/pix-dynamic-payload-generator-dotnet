@@ -1,4 +1,4 @@
 date=2026-11-21
-seq=119
-ts=1795230403
-scope=validator
+seq=120
+ts=1795230404
+scope=emv-crc16

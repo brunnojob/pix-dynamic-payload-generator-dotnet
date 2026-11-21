@@ -1,4 +1,4 @@
 date=2026-11-21
-seq=363
-ts=1795230647
-scope=qr-encoder
+seq=364
+ts=1795230648
+scope=emv-crc16

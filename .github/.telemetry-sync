@@ -1,4 +1,4 @@
 date=2026-11-21
-seq=306
-ts=1795230590
-scope=txid
+seq=307
+ts=1795230591
+scope=emv-crc16
